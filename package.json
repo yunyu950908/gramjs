@@ -13,6 +13,10 @@
     "url": "git+https://github.com/gram-js/gramjs.git"
   },
   "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
     "./*": {
       "import": "./dist/*",
       "require": "./dist/*"
